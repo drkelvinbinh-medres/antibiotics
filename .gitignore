@@ -1,0 +1,20 @@
+# Node dependencies
+node_modules/
+dist/
+dist-apk/
+*.log
+
+# Android & Gradle
+.gradle/
+build/
+**/build/
+*.apk
+*.aab
+local.properties
+.idea/
+*.iml
+.cxx/
+
+# OS generated
+.DS_Store
+Thumbs.db

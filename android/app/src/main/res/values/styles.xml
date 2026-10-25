@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AntiBacteria" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/mint_primary</item>
+        <item name="colorPrimaryVariant">@color/mint_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:statusBarColor">@color/mint_dark</item>
+        <item name="android:navigationBarColor">@color/night_bg</item>
+    </style>
+
+    <style name="Theme.AntiBacteria.NoActionBar" parent="Theme.AntiBacteria">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>
